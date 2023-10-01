@@ -55,3 +55,22 @@
   box-shadow: 4.375rem 0 4.375rem rgba(171, 191, 192, 0.6);
   font-family: "Courier New", Courier, monospace;
 }
+
+/* snake styles */
+.snake-dot {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: #dc042c;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.food {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #fff;
+  border-radius: 1.25rem;
+  z-index: 1;
+}
