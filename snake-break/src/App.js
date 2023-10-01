@@ -3,8 +3,7 @@ import Snake from "./components/Snake";
 import Food from "./components/Food";
 import Menu from "./components/Menu";
 import Controller from "./components/Controller";
-
-import "./App.css";
+import "./index.css";
 
 const getRandomCoordinates = () => {
   let min = 1;

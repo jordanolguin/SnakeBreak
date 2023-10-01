@@ -1,4 +1,4 @@
-import "../../src/App.css";
+import "../../src/index.css";
 
 const Controller = ({ onUp, onDown, onLeft, onRight }) => {
   return (

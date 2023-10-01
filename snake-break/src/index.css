@@ -12,3 +12,80 @@ body {
   flex-wrap: wrap;
   box-shadow: 0 0 0.625rem #dc042c;
 }
+
+/* button style */
+.up,
+.down {
+  display: flex;
+  justify-content: center;
+}
+
+.left-right {
+  display: flex;
+  justify-content: center;
+  margin: 0.625rem;
+}
+
+.leftwards,
+.rightwards {
+  margin: 3.125rem;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  border: 0.0625rem solid #fff;
+  color: #dc042c;
+  background: #1e1e1e;
+  box-shadow: 0.3125rem -0.3125rem 0.625rem rgba(0, 0, 0, 0.6);
+}
+
+.upwards,
+.downwards {
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  border: 0.0625rem solid #fff;
+  color: #dc042c;
+  background: #1e1e1e;
+  box-shadow: 0.3125rem -0.3125rem 0.625rem rgba(0, 0, 0, 0.6);
+}
+
+/* menu style */
+.menu {
+  position: relative;
+  width: 12.5rem;
+  height: 15.625rem;
+  border: 0.125rem solid #dc042c;
+  margin: 3.125rem auto;
+  margin-top: 12.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.start {
+  margin: 6.25rem;
+  background: #1e1e1e;
+  color: #fff;
+  border-radius: 0.4375rem;
+  border: 0px;
+  padding: 0.625rem;
+  box-shadow: 4.375rem 0 4.375rem rgba(171, 191, 192, 0.6);
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* snake styles */
+.snake-dot {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: #dc042c;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-food {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #fff;
+  border-radius: 1.25rem;
+  z-index: 1;
+}
