@@ -1,3 +1,5 @@
+import "../../src/App.css";
+
 const Controller = ({ onUp, onDown, onLeft, onRight }) => {
   return (
     <div className="controller">
